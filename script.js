@@ -55,7 +55,6 @@ restart()
 //Dit is de start knop om te beginnen met de demo
 document.getElementById('vuurButton'). onclick = function(event){
     startTimer(20);
-
     document.getElementById('vuur').classList.add("show");
 
     setTimeout(function(){document.getElementById('vuur1').classList.add("show");}, 1000);
@@ -71,6 +70,7 @@ document.getElementById('vuurButton'). onclick = function(event){
     document.getElementById('vuurButton').classList.remove('show');
     document.getElementById('vuurButton').classList.add('hidden');
     document.getElementById("myC").style.cursor="url('image/blusser.png'),help";
+
 };
 
 //Dit is de restart button om het spel opnieuw te spelen.
@@ -119,7 +119,7 @@ var ticker;
 
 function startTimer(secs){
 timeInSecs = parseInt(secs)-1;
-ticker = setInterval("tick()",1000);   // every second
+ticker = setInterval("tick()",1000);   // elke seconde
 }
 
 function tick() {
@@ -132,8 +132,7 @@ else {
     document.getElementById('restart').classList.add('show');
     
     
-clearInterval(ticker); // stop counting at zero  
-// remove forward slashes in front of startTimer to repeat if required
+clearInterval(ticker); // stop tellen bij 0  
 }
 
 if(x >= 5){
@@ -145,6 +144,7 @@ if (secs<10){
 }
 document.getElementById("countdown").innerHTML = secs;
 }
+
 
 
 
@@ -186,3 +186,9 @@ document.getElementById('vuur4').onclick = function(event){
     console.log(x + " vlammen geblust");
     myFunction();
 };
+
+//refresh de pagina na 90 seconden
+    setInterval(function(reload){
+        window.location.reload(1);
+        console.log("reload");
+     }, 90000);

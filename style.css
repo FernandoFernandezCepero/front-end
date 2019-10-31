@@ -3,6 +3,7 @@
   
   } */
   
+
   #time{
     margin: auto;
     width: 400px;
@@ -25,12 +26,6 @@ h1 {
     font-size: 3.5vw;
 }
 
-h2 {
-    text-align: center;
-    color: White;
-    font-size: 1.5vw;
-}
-
 .hidden {
     display:none;
 }
@@ -42,12 +37,14 @@ h2 {
 .demo {
     color: black;
 }
+
 #vuur{
     float: left;
     margin-left: -655px;
     margin-top: 280px;
     z-index: 1000;
     position: relative;
+    width:60px;
 }
 
 #vuur1{
@@ -56,6 +53,7 @@ h2 {
     margin-top: 280px;
     z-index: 1000;
     position: relative;
+    width: 60px;
 }
 
 #vuur2{
@@ -64,6 +62,7 @@ h2 {
     margin-top: 165px;
     z-index: 1000;
     position: relative;
+    width: 60px;
 }
 
 #vuur3{
@@ -72,6 +71,7 @@ h2 {
     margin-top: 165px;
     z-index: 1000;
     position: relative;
+    width:60px;
 }
 
 #vuur4{
@@ -80,6 +80,7 @@ h2 {
     margin-top: 145px;
     z-index: 1000;
     position: relative;
+    width:60px;
 }
 
 #vuurButton{
@@ -125,31 +126,6 @@ h2 {
     margin-top: 1.5%;
 }
 
-.right{
-    display:inline-block;
-    float:right;
-    margin-right: 2%;
-}
-
-.breaktext {
-    float: left;
-    border-radius: 5px;
-    background-color: rgba(0, 0, 0, 0.53);
-    height: 300px;
-}
-
-.breaktext {
-    float: left;
-    border-radius: 5px;
-    background-color: rgba(0, 0, 0, 0.53);
-    padding: 3.8% 0.5%;
-    margin-top: 5%;
-    margin-bottom: 10%;
-    margin-left: 2%;
-    width: 30%;
-}
-
-
 .breaktext1 {
     float: right;
     border-radius: 5px;
@@ -162,15 +138,13 @@ h2 {
     width: 250px;
     display:block;
     margin-right: 20px;
-}
-
-.breaktxt{
-    font-size: 1.4vw;
-    color: white;
+    float: left;
 }
 
 .logo {
-    height: 200px;
+    height: 170px;
+    margin-top: -10%;
+    margin-left: -10%;
 }
 
 .header {
@@ -207,15 +181,8 @@ h2 {
     background-color:white;
 }
 
-.left{
-     display:inline-block;
-     margin-left: 1%;
-     margin-top: 1.5%;
- }
-
 .right{
-    display:inline-block;
-    float:right;
+    float: right;
     margin-right: 2%;
 }
 
@@ -262,26 +229,7 @@ h2 {
     margin-bottom: 10%;
     margin-left: 2%;
     width: 30%;
-}
-
-.breakimg{
-    display:block;
-    float: left;
-    margin-right: 20px;
-}
-
-.breakimg1{
-    display:block;
-    float: left;
-    margin-right: 20px;
-    margin-top: 12%;
-}
-
-.breakimg2{
-    display:block;
-    float: left;
-    margin-right: 20px;
-    margin-top: 11%;
+    height: 300px;
 }
 
 .breaktxt{
@@ -296,22 +244,11 @@ h2 {
     margin: 20px;
 }
 
-.logo {
-    margin-top: -10%;
-    margin-left: -10%;
-}
-
 body {
     background-image: url("image/career-firefighter-relaxing-job-162540.jpeg");
     background-repeat: repeat-x;
     background-size: cover;
     overflow-x: hidden;
-}
-
-h1 {
-    text-align: center;
-    color: #e32121;
-    font-size: 3.5vw;
 }
 
 h2 {
@@ -346,10 +283,15 @@ h2 {
 
 .credit{
     padding-top: 1%;
+    padding-bottom: 1%;
     font-size: 1vw;
 }
 
 .footer{
     margin: -20px;
+    margin-top: 10px;
     background-color:white;
 }
+
+
+

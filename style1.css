@@ -1,365 +1,214 @@
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {...}
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {...}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {...}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {...}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {...}
-    #time{
-        margin: auto;
-        width: 400px;
-        font-weight: bold;
-        background-color: #79e67d;
-        color: black;
-        font-size: 2.5vw;
-        font-family: 'Courier New', Courier, monospace;
-    }
-
+@media screen and (max-width: 600px) {
     body {
         background-image: url("image/career-firefighter-relaxing-job-162540.jpeg");
-        background-repeat: repeat-x;
         background-size: cover;
     }
 
     h1 {
         text-align: center;
         color: #e32121;
-        font-size: 3.5vw;
+        font-size: 5vw;
     }
 
     h2 {
         text-align: center;
         color: White;
-        font-size: 1.5vw;
+        font-size: 4vw;
     }
 
-    .hidden {
-        display:none;
+    .header {
+        list-style-type: none;
+        margin: -20px;
+        height: 20%;
+        overflow: hidden;
+        background-color: #ffffff;
+        position: sticky;
     }
 
-    .show {
-        display:inLine !important;
+    .left{
+        display:inline-block;
+        margin-left: 1%;
+        margin-top: 1.5%;
     }
 
-    .demo {
+    .right{
+        float: right;
+        margin-right: 20px;
+        margin-top: -35px;
+    }
+
+    .logo {
+        height: 150px;
+    }
+
+    .tekstvlak {
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.53);
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 70%;
+    }
+
+    .break{
+        list-style-type: none;
+        background-color: #7c7c7c;
+        height: 720px;
+        overflow: hidden;
+    }
+
+    .breaktext {
+        border-radius: 5px;
+        background-color: rgba(0, 0, 0, 0.53);
+        padding: 3.8% 0.5%;
+        margin-left: 10%;
+        margin-top: 20px;
+        width: 80%;
+        height: 150px;
+    }
+
+    .breakimg{
+        width: 100px;
+        display:block;
+    }
+
+    .breaktxt{
+        font-size: 3vw;
+        color: white;
+    }
+
+    .break1{
+        list-style-type: none;
+        background-color: #ff0000;
+        overflow: hidden;
+    }
+
+    #time{
+        margin: auto;
+        width: 100px;
+        font-weight: bold;
+        background-color: #79e67d;
         color: black;
+        font-size: 3.5vw;
+        font-family: 'Courier New', Courier, monospace;
     }
+
+    .house{
+        width: 80%;
+        float: left;
+        margin: auto;
+        z-index: 1;
+    }
+
     #vuur{
         float: left;
-        margin-left: -655px;
-        margin-top: 280px;
+        margin-left: -290px;
+        margin-top: 120px;
         z-index: 1000;
         position: relative;
+        width: 30px;
     }
-
+    
     #vuur1{
         float: left;
-        margin-left: -580px;
-        margin-top: 280px;
+        margin-left: -255px;
+        margin-top: 120px;
         z-index: 1000;
         position: relative;
+        width: 30px;
     }
-
+    
     #vuur2{
         float: left;
-        margin-left: -505px;
-        margin-top: 165px;
+        margin-left: -225px;
+        margin-top: 70px;
         z-index: 1000;
         position: relative;
+        width: 30px;
     }
-
+    
     #vuur3{
         float: left;
-        margin-left: -430px;
-        margin-top: 165px;
+        margin-left: -190px;
+        margin-top: 70px;
         z-index: 1000;
         position: relative;
+        width: 30px;
     }
-
+    
     #vuur4{
         float: left;
-        margin-left: -195px;
-        margin-top: 145px;
+        margin-left: -90px;
+        margin-top: 60px;
         z-index: 1000;
         position: relative;
+        width: 30px;
     }
 
     #vuurButton{
         float: left;
-        margin-top: 50px;
+        margin-top: 200px;
+        margin-left: -50px;
         z-index: 1000;
-        font-size: 0.8vw;
+        font-size: 3vw;
         padding: 1% 1%;
         font-weight: bold;
         background-color: #ff6200;
         position: relative;
     }
 
-    #result {
-        font-size: 20px;
+    #restart{
+    float: right;
+    margin-top: -50px;
+    z-index: 1000;
+    font-size: 3vw;
+    padding: 1% 1%;
+    font-weight: bold;
+    background-color: #00ff40;
+    position: relative;
+}
+
+    .breaktext1 {
         float: left;
-        margin-top: 20px;
-        padding: 10px;
+        border-radius: 5px;
+        background-color: rgba(0, 0, 0, 0.53);
+        margin-left: 5%;
+        margin-top: -20px;
+        width: 40%;
+    }
+
+    .breaktxt1{
+        font-size: 3vw;
+        color: white;
+        margin: 20px;
+    }
+
+    #result {
+        font-size: 3vw;
+        float: left;
+        max-width: 100px; 
+        margin-left: 175px;
+        margin-top: -100px;
+        padding: 5px;
         border-radius: 10px;
         background-color: #06caca;
         position: relative;
     }
 
-    #restart{
-        float: left;
-        margin-top: 50px;
-        z-index: 1000;
-        font-size: 0.8vw;
-        padding: 1% 1%;
-        font-weight: bold;
-        background-color: #00ff40;
-        position: relative;
-    }
-
-    .button:hover {
-        background-color: #79e67d; /* Green */
-        color: black;
-    }
-
-    .left{
-        display:inline-block;
-        margin-left: 1%;
-        margin-top: 1.5%;
-    }
-
-    .right{
-        display:inline-block;
-        float:right;
-        margin-right: 2%;
-    }
-
-    .breaktext {
-        float: left;
-        border-radius: 5px;
-        background-color: rgba(0, 0, 0, 0.53);
-        height: 300px;
-    }
-
-    .breaktext {
-        float: left;
-        border-radius: 5px;
-        background-color: rgba(0, 0, 0, 0.53);
-        padding: 3.8% 0.5%;
-        margin-top: 5%;
-        margin-bottom: 10%;
-        margin-left: 2%;
-        width: 30%;
-    }
-
-
-    .breaktext1 {
-        float: right;
-        border-radius: 5px;
-        background-color: rgba(0, 0, 0, 0.53);
-        margin-right: 200px;
-        width: 500px;
-    }
-
-    .breakimg{
-        width: 250px;
-        display:block;
-        margin-right: 20px;
-    }
-
-    .breaktxt{
-        font-size: 1.4vw;
-        color: white;
-    }
-
-    .logo {
-        height: 200px;
-    }
-
-    .header {
-        list-style-type: none;
-        margin: -20px;
-        max-height: 20%;
-        overflow: hidden;
-        background-color: #ffffff;
-        position: sticky;
-        top: 0%;
-        z-index: 100;
-    }
-
-    .sticky {
-        position: fixed;
-        top: 0;
-        width: 100%
-    }
-
-    .column {
-        margin-left: 20px;
-        margin-right: 20px;
-        width: 10%;
-        padding: 3%;
-    }
-
-    .credit{
-        padding-top: 1%;
-        font-size: 1vw;
-    }
-
     .footer{
-        margin: -20px;
         background-color:white;
     }
-
-    .left{
-        display:inline-block;
-        margin-left: 1%;
-        margin-top: 1.5%;
-    }
-
-    .right{
-        display:inline-block;
-        float:right;
-        margin-right: 2%;
-    }
-
-    .tekstvlak {
-        border-radius: 20px;
-        background-color: rgba(0, 0, 0, 0.53);
-        padding: 0.5% 0.5%;
-        margin: auto;
-        margin-top: 200px;
-        margin-bottom: 200px;
-        width: 50%;
+    
+    .credit{
+        padding: 1%;
         font-size: 2vw;
     }
+    
 
-    .break{
-        list-style-type: none;
-        background-color: #7c7c7c;
-        margin: -20px;
-        height: 650px;
-        overflow: hidden;
-    }
 
-    .break1{
-        list-style-type: none;
-        background-color: #ba8e8e;
-        margin: -20px;
-        padding-bottom: 5%;
-        overflow: hidden;
-    }
 
-    .house{
-        width: 700px;
-        float: left;
-        margin-left: 100px;;
-        z-index: 1;
-    }
 
-    .breaktext {
-        float: left;
-        border-radius: 5px;
-        background-color: rgba(0, 0, 0, 0.53);
-        padding: 3.8% 0.5%;
-        margin-top: 5%;
-        margin-bottom: 10%;
-        margin-left: 2%;
-        width: 30%;
-    }
 
-    .breakimg{
-        display:block;
-        float: left;
-        margin-right: 20px;
-    }
 
-    .breakimg1{
-        display:block;
-        float: left;
-        margin-right: 20px;
-        margin-top: 12%;
-    }
-
-    .breakimg2{
-        display:block;
-        float: left;
-        margin-right: 20px;
-        margin-top: 11%;
-    }
-
-    .breaktxt{
-        font-size: 1.4vw;
-        color: white;
-        margin-left: 42%;
-    }
-
-    .breaktxt1{
-        font-size: 1.4vw;
-        color: white;
-        margin: 20px;
-    }
-
-    .logo {
-        margin-top: -10%;
-        margin-left: -10%;
-    }
-
-    body {
-        background-image: url("image/career-firefighter-relaxing-job-162540.jpeg");
-        background-repeat: repeat-x;
-        background-size: cover;
-        overflow-x: hidden;
-    }
-
-    h1 {
-        text-align: center;
-        color: #e32121;
-        font-size: 3.5vw;
-    }
-
-    h2 {
-        text-align: center;
-        color: White;
-        font-size: 1.5vw;
-    }
-
-    .header {
-        list-style-type: none;
-        margin: -20px;
-        max-height: 20%;
-        overflow: hidden;
-        background-color: #ffffff;
-        position: sticky;
-        top: 0%;
-        z-index: 100;
-    }
-
-    .sticky {
-        position: fixed;
-        top: 0;
-        width: 100%
-    }
-
-    .column {
-        margin-left: 20px;
-        margin-right: 20px;
-        width: 10%;
-        padding: 3%;
-    }
-
-    .credit{
-        padding-top: 1%;
-        font-size: 1vw;
-    }
-
-    .footer{
-        margin: -20px;
-        background-color:white;
-    }
 }
